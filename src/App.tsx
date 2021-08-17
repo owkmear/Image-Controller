@@ -1,10 +1,8 @@
-import React from 'react'
-import logo from './logo.svg'
-import './App.css'
+import React, { FC } from 'react'
 import ImageGallery from './components/ImageGallery'
 import Header from './components/Header'
 
-function App() {
+const App: FC = () => {
   return (
     <div>
       <Header />

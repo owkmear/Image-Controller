@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { FC } from 'react'
 import { photos } from '../api/photos'
 
 import LightGallery from 'lightgallery/react'
@@ -10,7 +10,7 @@ import 'lightgallery/css/lightgallery.css'
 import 'lightgallery/css/lg-zoom.css'
 import 'lightgallery/css/lg-thumbnail.css'
 
-function ImageGallery() {
+const ImageGallery: FC = () => {
   return (
     <div className="gallery">
       <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]} mode="lg-fade">
