@@ -16,6 +16,10 @@ code {
 
 }
 
+.gallery .lg-react-element {
+  text-align: center;
+}
+
 .gallery__item {
 
 }
