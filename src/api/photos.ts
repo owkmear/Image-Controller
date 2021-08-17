@@ -1,4 +1,6 @@
-export const photos = [
+import { Photo } from '../model'
+
+export const photos: Photo[] = [
   {
     src: 'images/1.png',
     width: 4,
