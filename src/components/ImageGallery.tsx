@@ -1,5 +1,6 @@
 import React, { FC } from 'react'
 import { photos } from '../api/photos'
+import { Photo } from '../model'
 
 import LightGallery from 'lightgallery/react'
 
@@ -14,9 +15,9 @@ const ImageGallery: FC = () => {
   return (
     <div className="gallery">
       <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]} mode="lg-fade">
-        {photos.map((x) => (
-          <a className="gallery__item" href={x.src}>
-            <img className="gallery__image" alt={x.author} src={x.src} />
+        {photos.map((photo: Photo) => (
+          <a key={photo.id} className="gallery__item" href={`images/${photo.src}`} data-lg-size={photo.size}>
+            <img className="gallery__image img-responsive" alt={photo.author} src={`thumbs/${photo.src}`} />
           </a>
         ))}
       </LightGallery>
