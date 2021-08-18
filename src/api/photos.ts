@@ -141,7 +141,7 @@ export const photos: Photo[] = [
   { src: 'images/121.png', author: 'Ольга Коржичкина' },
   { src: 'images/122.png', author: 'Tweek' },
   { src: 'images/123.jpg', author: 'Александра Кострова' },
-  { src: 'images/124.png', author: 'Ghosha' },
+  { src: 'images/124.jpg', author: 'Ghosha' },
   { src: 'images/125.jpg', author: 'Юлия Гнездилова' },
   { src: 'images/126.jpg', author: 'DjkaSkan' },
   { src: 'images/127.png', author: 'Татьяна Богомол' },
@@ -164,5 +164,7 @@ export const photos: Photo[] = [
   { src: 'images/144.jpg', author: 'Devi' },
   { src: 'images/145.jpg', author: 'Devi' },
   { src: 'images/146.png', author: 'Нает' },
-  { src: 'images/147.jpg', author: 'dozhdoley' }
+  { src: 'images/147.jpg', author: 'dozhdoley' },
+  { src: 'images/165.jpg', author: 'MegabaitGamer' },
+  { src: 'images/166.png', author: 'MegabaitGamer' }
 ]
