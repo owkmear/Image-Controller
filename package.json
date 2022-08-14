@@ -22,7 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "thumbs": "bash scripts/thumbs.bash"
+    "thumbs": "bash scripts/thumbs.bash",
+    "thumbs-windows": "bash scripts/windows-thumbs.bash"
   },
   "eslintConfig": {
     "extends": [
