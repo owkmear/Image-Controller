@@ -167,5 +167,6 @@ export const photos: Photo[] = [
   { src: '147.jpg', author: 'dozhdoley' },
   { src: '165.jpg', author: 'MegabaitGamer' },
   { src: '166.png', author: 'MegabaitGamer' },
-  { src: '174.jpg', author: 'MegabaitGamer' }
+  { src: '174.jpg', author: 'MegabaitGamer' },
+  { src: '175.png', author: 'MegabaitGamer' }
 ]
