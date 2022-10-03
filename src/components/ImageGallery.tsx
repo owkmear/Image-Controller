@@ -13,7 +13,7 @@ import 'lightgallery/css/lg-thumbnail.css'
 
 const ImageGallery: FC = () => {
   return (
-    <div className="gallery">
+    <main className="gallery">
       <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]} mode="lg-fade">
         {photos.map((photo: Photo) => (
           <a key={photo.id} className="gallery__item" href={`images/${photo.src}`} data-lg-size={photo.size}>
@@ -21,7 +21,7 @@ const ImageGallery: FC = () => {
           </a>
         ))}
       </LightGallery>
-    </div>
+    </main>
   )
 }
 
