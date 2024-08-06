@@ -1,15 +1,15 @@
-import React, { FC } from 'react'
-import { photos } from '../api/photos'
-import { Photo } from '../model'
+import React, { FC } from 'react';
+import { photos } from '../api/photos';
+import { Photo } from '../model';
 
-import LightGallery from 'lightgallery/react'
+import LightGallery from 'lightgallery/react';
 
-import lgThumbnail from 'lightgallery/plugins/thumbnail'
-import lgZoom from 'lightgallery/plugins/zoom'
+import lgThumbnail from 'lightgallery/plugins/thumbnail';
+import lgZoom from 'lightgallery/plugins/zoom';
 
-import 'lightgallery/css/lightgallery.css'
-import 'lightgallery/css/lg-zoom.css'
-import 'lightgallery/css/lg-thumbnail.css'
+import 'lightgallery/css/lightgallery.css';
+import 'lightgallery/css/lg-zoom.css';
+import 'lightgallery/css/lg-thumbnail.css';
 
 const ImageGallery: FC = () => {
   return (
@@ -22,7 +22,7 @@ const ImageGallery: FC = () => {
         ))}
       </LightGallery>
     </main>
-  )
-}
+  );
+};
 
-export default ImageGallery
+export default ImageGallery;

@@ -1,4 +1,4 @@
-import { Photo } from '../model'
+import { Photo } from '../model';
 
 export const photos: Photo[] = [
   { src: '148.jpg', author: 'MegabaitGamer', size: '3472-4640' },
@@ -170,5 +170,5 @@ export const photos: Photo[] = [
   { src: '174.jpg', author: 'MegabaitGamer' },
   { src: '175.png', author: 'MegabaitGamer' },
   { src: '175.png', author: 'MegabaitGamer' },
-  { src: '176.png', author: 'MegabaitGamer' }
-]
+  { src: '176.png', author: 'MegabaitGamer' },
+];

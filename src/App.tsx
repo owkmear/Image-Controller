@@ -1,6 +1,6 @@
-import React, { FC } from 'react'
-import ImageGallery from './components/ImageGallery'
-import Header from './components/Header'
+import React, { FC } from 'react';
+import ImageGallery from './components/ImageGallery';
+import Header from './components/Header';
 
 const App: FC = () => {
   return (
@@ -8,7 +8,7 @@ const App: FC = () => {
       <Header />
       <ImageGallery />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
